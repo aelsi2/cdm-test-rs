@@ -1,0 +1,3 @@
+MEMORY {
+    RAM : ORIGIN = 0x100, LENGTH = 64K-0x100
+}
