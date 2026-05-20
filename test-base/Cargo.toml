@@ -1,5 +1,5 @@
 [package]
-name = "test"
+name = "cdm-test"
 version = "0.1.0"
 edition = "2024"
 
@@ -11,6 +11,9 @@ version = "0.7.0"
 
 [dependencies.std]
 path = "./std"
+
+[dependencies.test]
+path = "./test"
 
 [dependencies.cdm]
 git = "https://github.com/aelsi2/cdm-rs.git"

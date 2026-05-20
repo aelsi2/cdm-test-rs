@@ -85,7 +85,7 @@ impl TestProject {
                 .join("target")
                 .join("cdm-none")
                 .join("release")
-                .join("test"),
+                .join("cdm-test"),
         )
         .context("Could not read image")?;
         let mut image = NamedTempFile::with_suffix(".img")?;
