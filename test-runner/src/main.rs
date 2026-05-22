@@ -75,7 +75,6 @@ fn main() -> Result<()> {
 
         println!("Running {}", test.display());
         if !cocoemu.run(image.path())? {
-            println!("Running {}", test.display());
             println!("Failed due to assertion error");
             assertion_errors += 1;
             continue;

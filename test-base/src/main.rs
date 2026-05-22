@@ -5,6 +5,7 @@
 #![feature(core_intrinsics)]
 #![feature(stmt_expr_attributes)]
 #![feature(f16)]
+#![feature(sync_unsafe_cell)]
 
 extern crate alloc;
 
